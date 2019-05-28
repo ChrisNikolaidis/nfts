@@ -4,7 +4,7 @@ const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
   'inject unveil earn various size comic ticket stamp little surprise hen alone',
-  'rinkeby.infura.io/v3/402014c5be4e43cab02965ca953e90a3'
+  'https://rinkeby.infura.io/v3/402014c5be4e43cab02965ca953e90a3'
 );
 const web3 = new Web3(provider);
 
