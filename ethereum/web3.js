@@ -9,7 +9,7 @@ if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
 } else {
     // not have metamask
     const provider = new Web3.providers.HttpProvider(
-
+        'rinkeby.infura.io/v3/402014c5be4e43cab02965ca953e90a3'
     );
     web3 = new Web3(provider);
 }
